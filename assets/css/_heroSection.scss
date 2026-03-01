@@ -1,0 +1,47 @@
+// palette main colors
+$primary-color: #000;
+$secondary-color: #06AED5;
+$third-color: #04F06A;
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    height: 80dvh;
+
+    h3 {
+        margin: 0;
+        padding: 20px 0 0 0;
+        font-size: clamp(1em, 20px, 2em);
+        font-weight: 200;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: clamp(4em, 64px, 6em);
+        padding: 50px 0 0 0;
+        line-height: 1em;
+        font-weight: bold;
+        text-align: left;
+        animation: showAnimation 1.5s ease-in forwards;
+    }
+
+    h2 {
+        font-weight: 200;
+        font-size: clamp(1.8em, 24px, 2em);
+
+        span {
+            color: $secondary-color;
+            font-weight: 400;
+        }
+    }
+}
+@keyframes showAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

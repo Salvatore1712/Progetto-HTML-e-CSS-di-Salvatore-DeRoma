@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 80dvh;
+}
+.hero h3 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-size: clamp(1em, 20px, 2em);
+  font-weight: 200;
+  text-align: left;
+}
+.hero h1 {
+  font-size: clamp(4em, 64px, 6em);
+  padding: 50px 0 0 0;
+  line-height: 1em;
+  font-weight: bold;
+  text-align: left;
+  animation: showAnimation 1.5s ease-in forwards;
+}
+.hero h2 {
+  font-weight: 200;
+  font-size: clamp(1.8em, 24px, 2em);
+}
+.hero h2 span {
+  color: #06AED5;
+  font-weight: 400;
+}
+
+@keyframes showAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  font-family: "Figtree", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row: auto;
+  gap: 0px;
+  margin: 0 auto;
+  padding: 8px;
+}
+#grid-container .grid-items {
+  border: #000 solid 1px;
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */

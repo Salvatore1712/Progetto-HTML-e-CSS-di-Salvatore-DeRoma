@@ -1,0 +1,63 @@
+// palette main colors
+$primary-color: #000;
+$secondary-color: #06AED5;
+$third-color: #04F06A;
+
+// import google font "Figtree"
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+// import css hero section
+@import "heroSection";
+
+body {
+    font-family: "Figtree", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: auto;
+    gap: 0px;
+    margin: 0 auto;
+    padding: 8px;
+
+    .grid-items {
+        border: #000 solid 1px;
+    }
+}
+
+ul li {
+        text-decoration: none;
+        list-style-type: none;
+
+    a {
+    text-decoration: none;
+    }
+}
+
+.header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+}
+
+
+
+
+
+
+// TABLET CSS STYLE
+@media (min-width: 768px) {
+    
+}
+
+
+// DESKTOP CSS STYLE
+@media (min-width: 1024px) {
+    
+}
