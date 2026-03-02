@@ -1,0 +1,30 @@
+@import "./variables";
+
+.project-section {
+    display: flex;
+    padding: 64px 0 0 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 10px;
+    height: 85dvh;
+    border: $debugBorder;
+
+    p {
+            width: 50%;
+            padding-top: 20px;
+            margin: 0 auto;
+        }
+    .btn {
+        margin: 0 auto;
+    }
+}
+
+.things-text {
+        font-size: clamp(3em, 48px, 3.5em);
+        border: $debugBorder;
+
+        span {
+            color: $third-color;
+        }
+    }
