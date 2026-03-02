@@ -20,12 +20,13 @@ $third-color: #04F06A;
             }
 
             h1 {
-                font-size: clamp(4em, 64px, 6em);
+                font-size: clamp(4em, 56px, 6em);
                 padding: 50px 0 0 0;
                 line-height: 1em;
                 font-weight: bold;
                 text-align: left;
                 animation: showAnimation 1.5s ease-in forwards;
+                word-wrap: normal;
             }
 
             h2 {

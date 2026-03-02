@@ -14,12 +14,13 @@
   text-align: left;
 }
 .hero h1 {
-  font-size: clamp(4em, 64px, 6em);
+  font-size: clamp(4em, 56px, 6em);
   padding: 50px 0 0 0;
   line-height: 1em;
   font-weight: bold;
   text-align: left;
   animation: showAnimation 1.5s ease-in forwards;
+  word-wrap: normal;
 }
 .hero h2 {
   font-weight: 200;
@@ -43,6 +44,61 @@
     font-size: clamp(8em, 150px, 10em);
   }
 }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  position: sticky;
+  width: 100%;
+  padding: 0;
+  top: 0;
+  border: 1px solid salmon;
+  background-color: white;
+  box-shadow: 0px 1px 2px lightgray;
+  z-index: 1000;
+}
+.header ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  height: 100vh;
+  align-items: center;
+}
+.header ul li {
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+}
+.header ul li:hover {
+  background-color: #000;
+  color: white;
+}
+.header a {
+  text-decoration: none;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  font-size: 25.28px;
+}
+.header .menu {
+  position: absolute;
+  text-align: center;
+  border: 1px solid salmon;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  gap: 16px;
+}
+
 body {
   font-family: "Figtree", sans-serif;
   margin: 0 auto;
@@ -59,23 +115,8 @@ a {
   grid-row: auto;
   gap: 0px;
   margin: 0 auto;
-  padding: 8px;
+  padding: 0px;
 }
 #grid-container .grid-items {
   border: #000 solid 1px;
-}
-
-ul li {
-  text-decoration: none;
-  list-style-type: none;
-}
-ul li a {
-  text-decoration: none;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: auto;
 }/*# sourceMappingURL=style.css.map */

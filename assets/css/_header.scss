@@ -1,0 +1,62 @@
+@import "./variables";
+
+
+.header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        position: sticky;
+        width: 100%;
+        padding: 0;
+        top: 0;
+        border: $debugBorder;
+        background-color: white;
+        box-shadow: 0px 1px 2px lightgray;
+        z-index: 1000;
+
+        ul {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 16px;
+            height: 100vh;
+            align-items: center;
+        }
+
+        ul li {
+            text-decoration: none;
+            list-style-type: none;
+            width: 100%;
+            // hover on li items (links)
+            &:hover {
+                background-color: $primary-color;
+                color: white;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: $primary-color;
+            padding: 0;
+            margin: 0;
+            font-size: 25.28px;
+        }
+
+        // dropdown menù
+        .menu {
+            position: absolute;
+            text-align: center;
+            border: $debugBorder;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $whiteTotal;
+            gap: 16px;
+        }
+}
