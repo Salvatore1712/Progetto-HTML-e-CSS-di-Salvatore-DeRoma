@@ -33,10 +33,6 @@
             list-style-type: none;
             width: 100%;
             // hover on li items (links)
-            &:hover {
-                background-color: $primary-color;
-                color: white;
-            }
         }
         a {
             text-decoration: none;
@@ -45,7 +41,8 @@
             margin: 0;
             font-size: 25.28px;
             &:hover {
-                color: $whiteTotal;
+                color: $secondary-color;
+                text-decoration: underline;
             }
         }
 
