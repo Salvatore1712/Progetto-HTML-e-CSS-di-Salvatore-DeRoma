@@ -7,7 +7,7 @@
         justify-content: space-between;
         height: auto;
         position: sticky;
-        width: 100%;
+        width: 95%;
         padding: 8px 0 8px 0;
         top: 0;
         // border: $debugBorder;
@@ -62,7 +62,7 @@
             align-items: center;
             background-color: $whiteTotal;
             gap: 16px;
-            opacity: 0;
+            display: none;
             transition: opacity 0.5 ease-in-out;
             z-index: 999;
         }
@@ -74,7 +74,7 @@
             position: relative;
 
             &:checked ~ .menu {
-                opacity: 1;
+                display: block;
                 transition: opacity 0.3s ease-in-out;
             }
         }

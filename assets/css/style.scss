@@ -23,6 +23,7 @@ a {
     text-decoration: none;
 }
 #grid-container {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-row: auto;

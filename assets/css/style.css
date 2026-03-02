@@ -52,7 +52,7 @@
   justify-content: space-between;
   height: auto;
   position: sticky;
-  width: 100%;
+  width: 95%;
   padding: 8px 0 8px 0;
   top: 0;
   background-color: white;
@@ -101,7 +101,7 @@
   align-items: center;
   background-color: #fff;
   gap: 16px;
-  opacity: 0;
+  display: none;
   transition: opacity 0.5 ease-in-out;
   z-index: 999;
 }
@@ -111,7 +111,7 @@
   position: relative;
 }
 .header #btn-menu:checked ~ .menu {
-  opacity: 1;
+  display: block;
   transition: opacity 0.3s ease-in-out;
 }
 .header .menu-icon {
@@ -141,17 +141,16 @@
 }
 
 .project-section {
+  margin-top: 105px;
   display: flex;
-  padding: 64px 0 0 0;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 10px;
   height: 85dvh;
-  border: 1px solid salmon;
 }
 .project-section p {
-  width: 50%;
+  font-size: 22px;
+  width: 70%;
   padding-top: 20px;
   margin: 0 auto;
 }
@@ -161,7 +160,6 @@
 
 .things-text {
   font-size: clamp(3em, 48px, 3.5em);
-  border: 1px solid salmon;
 }
 .things-text span {
   color: #04F06A;
@@ -179,6 +177,7 @@ a {
 }
 
 #grid-container {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-row: auto;
