@@ -1,9 +1,10 @@
 // palette main colors
 @import "./variables";
 
-// import google font "Figtree"
+// IMPORT GOOGLE FONT"Figtree"
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+// HOME PAGE
 // import css hero section
 @import "heroSection";
 
@@ -15,6 +16,10 @@
 
 // IMPORT FOOTER SECTION
 @import "./footer";
+
+
+// ABOUT ME PAGE
+
 
 
 *, *::before, *::after {
