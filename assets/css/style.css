@@ -235,6 +235,11 @@
   font-weight: bold;
 }
 
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .about-info {
   display: flex;
   flex-direction: column;
@@ -256,10 +261,36 @@
   margin: 0 auto;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+li {
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .cv-section {
   margin-top: 5dvh;
   width: 100%;
   font-size: 16px;
+}
+.cv-section h2 span {
+  font-weight: bold;
+  color: #04F06A;
+}
+.cv-section h5 {
+  margin: 0;
+  padding: 0;
+  color: #000;
 }
 .cv-section .cv-title {
   font-size: 2rem;
@@ -267,6 +298,7 @@
 .cv-section .box-cv {
   display: flex;
   gap: 5px;
+  padding-bottom: 4dvh;
 }
 .cv-section .box-cv aside {
   display: flex;
@@ -276,19 +308,16 @@
   height: 70dvh;
 }
 .cv-section .box-cv aside img {
-  width: 90%;
+  width: 80%;
+  height: auto;
   border-radius: 50%;
 }
 .cv-section .box-cv .info-cv {
   padding: 8px;
   width: 80%;
-  border: 1px solid salmon;
-}
-.cv-section .box-cv .info-cv h5 {
-  padding: 0;
 }
 .cv-section .box-cv .informations {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   padding: 0;
   margin: 0;
 }
@@ -296,8 +325,9 @@
   font-size: 0.8rem;
   font-weight: 500;
 }
-.cv-section .box-cv .work-experiences p {
-  font-size: 0.7rem;
+.btn {
+  margin: 0 auto;
+  margin-bottom: 4dvh;
 }
 
 *, *::before, *::after {

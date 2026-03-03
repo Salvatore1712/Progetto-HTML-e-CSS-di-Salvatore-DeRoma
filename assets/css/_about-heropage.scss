@@ -17,6 +17,11 @@
     }
 }
 
+.btn a {
+    text-decoration: none;
+    color: $whiteTotal;
+}
+
 .about-info {
     display: flex;
     flex-direction: column;
