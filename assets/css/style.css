@@ -330,6 +330,32 @@ li {
   margin-bottom: 4dvh;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  padding: 16px;
+  height: 85dvh;
+}
+.form legend {
+  color: #04F06A;
+  font-size: 1.9rem;
+}
+.form input {
+  width: 80%;
+  max-width: 450px;
+}
+.form input {
+  width: 90%;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }

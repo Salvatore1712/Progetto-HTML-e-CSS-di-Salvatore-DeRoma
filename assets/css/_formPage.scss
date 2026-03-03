@@ -1,0 +1,30 @@
+@import "./variables";
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    padding: 16px;
+    height: 85dvh;
+
+    legend {
+        color: $third-color;
+        font-size: 1.9rem;
+    }
+
+    input {
+        width: 80%;
+        max-width: 450px;
+    }
+
+    input {
+        width: 90%;
+    }
+}
