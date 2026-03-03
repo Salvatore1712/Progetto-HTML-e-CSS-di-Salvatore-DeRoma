@@ -55,7 +55,7 @@
   justify-content: space-between;
   height: auto;
   position: sticky;
-  width: 95%;
+  width: 100%;
   padding: 8px 0 8px 0;
   top: 0;
   background-color: white;
@@ -150,7 +150,7 @@
 }
 .project-section p {
   font-size: 20px;
-  width: 70%;
+  width: 80%;
   padding-top: 20px;
   margin: 0 auto;
 }
@@ -163,6 +163,61 @@
 }
 .things-text span {
   color: #04F06A;
+}
+
+#footer {
+  position: relative;
+  z-index: 1002;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  padding: 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.box-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.box-footer img {
+  width: 50%;
+  height: 50%;
+}
+
+.menu-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #fff;
+  list-style-type: none;
+}
+.menu-footer li {
+  padding-top: 5px;
+}
+.menu-footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.box-info-footer {
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+.box-info-footer a {
+  color: #fff;
+  font-size: 12px;
 }
 
 *, *::before, *::after {
@@ -187,7 +242,7 @@ a {
   grid-row: auto;
   gap: 0px;
   margin: 0 auto;
-  padding: 24px 9.48px;
+  padding: 24px 9.48px 0 9.48px;
   box-sizing: border-box;
   overflow-x: auto;
 }

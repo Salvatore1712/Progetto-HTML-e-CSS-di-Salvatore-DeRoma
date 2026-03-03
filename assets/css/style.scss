@@ -13,6 +13,10 @@
 // import projectSection
 @import "./projectSection";
 
+// IMPORT FOOTER SECTION
+@import "./footer";
+
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -33,7 +37,7 @@ a {
     grid-row: auto;
     gap: 0px;
     margin: 0 auto;
-    padding: 24px 9.48px;
+    padding: 24px 9.48px 0 9.48px;
     box-sizing: border-box;
     overflow-x:auto;
 

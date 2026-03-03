@@ -1,0 +1,60 @@
+// FOOTER 
+@import "./variables";
+
+#footer {
+    position: relative;
+    z-index: 1002;
+    background-color: $primary-color;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.box-footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 10px;
+
+        img {
+            width: 50%;
+            height: 50%;
+        }
+    }
+.menu-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    color: $whiteTotal;
+    list-style-type: none;
+    // border: $debugBorder;
+    li {
+        padding-top: 5px;
+    }
+    a {
+        text-decoration: none;
+        color: $whiteTotal;
+    }
+}
+.box-info-footer {
+    font-size: 10px;
+    color: $whiteTotal;
+    text-align: center;
+    padding-top: 10px;
+
+    a {
+        color: $whiteTotal;
+        font-size: 12px;
+    }
+}
+
