@@ -10,8 +10,8 @@ $third-color: #04F06A;
         justify-content: space-between;
         align-items:flex-start;
         gap: 10px;
-        width: 100%;
         height: 89dvh;
+        max-width: 100dvw;
 
         // text "Salvatore De Roma"
             h3 {
@@ -25,16 +25,15 @@ $third-color: #04F06A;
             }
 
             h1 {
-                display: inline-block;
-                width: 55%;
-                font-size: clamp(5em, 64px, 7em);
-                padding: 32px 0 0 0;
+                width: 100%;
+                max-width: 98%;
+                font-size: clamp(3rem, 25vw, 5.2rem);
                 line-height: 1em;
                 font-weight: bold;
                 text-align: left;
-                border: $debugBorder;
-                overflow: auto;
-                animation: showAnimation 1.5s ease-in forwards;
+                animation: showAnimation 1.9s ease-in forwards;
+                word-break: break-all;
+                word-wrap: break-word;
             }
 
             h2 {

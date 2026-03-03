@@ -9,7 +9,7 @@
     height: 85dvh;
 
     p {     
-            font-size: 22px;
+            font-size: 20px;
             width: 70%;
             padding-top: 20px;
             margin: 0 auto;
@@ -20,7 +20,7 @@
 }
 
 .things-text {
-        font-size: clamp(3em, 48px, 3.5em);
+        font-size: clamp(2.5em, 40px, 3em);
 
         span {
             color: $third-color;
