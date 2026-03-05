@@ -9,25 +9,28 @@
 @import "heroSection";
 
 // header
-@import "./header";
+@import "header";
 
 // import projectSection
-@import "./projectSection";
+@import "homeStyle";
 
 // IMPORT FOOTER SECTION
-@import "./footer";
+@import "footer";
 
 
 // ABOUT ME PAGE
-@import "./about-heropage";
+@import "about-heropage";
 
 
 // CV PAGE
-@import "./cvPage";
+@import "cvPage";
 
 
 // CONTACT PAGE
-@import "./formPage";
+@import "formPage";
+
+// PROJECT SECTION
+@import "projectStyle";
 
 
 *, *::before, *::after {
@@ -50,9 +53,8 @@ a {
     grid-row: auto;
     gap: 0px;
     margin: 0 auto;
-    padding: 24px 9.48px 0 9.48px;
+    padding: 0 9.48px 0 9.48px;
     box-sizing: border-box;
-    overflow-x:auto;
 
     .grid-items {
     }

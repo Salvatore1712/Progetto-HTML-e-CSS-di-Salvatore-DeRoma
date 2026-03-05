@@ -11,12 +11,13 @@
     border-radius: 8px;
     width: 90%;
     max-width: 500px;
-    padding: 16px;
-    height: 85dvh;
+    padding: 0px;
+    height: 50dvh;
 
     legend {
         color: $third-color;
         font-size: 1.9rem;
+        font-weight: bold;
     }
 
     input {
@@ -26,5 +27,8 @@
 
     input {
         width: 90%;
+    }
+    #textarea {
+        width: 100%;
     }
 }
